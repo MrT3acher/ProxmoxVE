@@ -4,7 +4,7 @@
 # Author: thost96 (thost96) | Co-Author: michelroegl-brunner
 # License: MIT | https://github.com/community-scripts/ProxmoxVE/raw/main/LICENSE
 
-source /dev/stdin <<<$(curl -fsSL ../misc/api.func)
+source ../misc/api.func
 
 function header_info() {
   clear

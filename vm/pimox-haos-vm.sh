@@ -5,7 +5,7 @@
 # License: MIT
 # https://github.com/community-scripts/ProxmoxVE/raw/main/LICENSE
 
-source /dev/stdin <<<$(curl -fsSL ../misc/api.func)
+source ../misc/api.func
 
 function header_info {
   cat <<"EOF"
